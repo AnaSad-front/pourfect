@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import "tailwindcss";
+
+html {
+  font-size: 50%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-rubik);
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+}
+
+@theme {
+  --font-rubik: "Rubik", sans-serif;
+
+  --color-bg: oklch(14.7% 0.004 49.25);
+  --color-bg-secondary: oklch(21.6% 0.006 56.043);
+  --color-primary: oklch(86.9% 0.005 56.366);
+  --color-secondary: oklch(70.9% 0.01 56.259);
+  --color-accent: oklch(92.4% 0.12 95.746);
+  --color-accent-secondary: oklch(0.769 0.188 70.08);
+  --color-error: oklch(70.4% 0.191 22.216);
+
+  --text-xs: 1.8rem;
+  --text-sm: 2rem;
+  --text-md: 3rem;
+  --text-lg: 7.4rem;
+
+  --spacing-xxs: 0.8rem;
+  --spacing-xs: 1.2rem;
+  --spacing-xsm: 2.4rem;
+  --spacing-sm: 3.2rem;
+  --spacing-md: 6.4rem;
+  --spacing-lg: 9.6rem;
+
+  /* --breakpoint-md: 832px; */
+}
+
+@media (min-width: 640px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media (min-width: 1024px) {
+  html {
+    font-size: 68.75%;
+  }
+}
+
+@media (min-width: 1280px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* 
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 32 / 36 / 44 / 52 / 62 / 74 / 86 / 96
+                    xs   sm        md                                 lg
+
+1rem = 16px
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+      xxs   xs              sm        md         lg
+*/
+
+.tippy-box[data-theme="custom"] {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-primary);
+  font-family: var(--font-rubik);
+  font-size: var(--text-sm);
+  padding: var(--spacing-xs);
+  border-radius: 0.5rem;
+}
+
+.tippy-box[data-theme~="custom"][data-placement^="top"] > .tippy-arrow::before {
+  border-top-color: var(--color-bg-secondary);
+}
+
+.tippy-box[data-theme~="custom"][data-placement^="bottom"]
+  > .tippy-arrow::before {
+  border-bottom-color: var(--color-bg-secondary);
+}
+
+.tippy-box[data-theme~="custom"][data-placement^="left"]
+  > .tippy-arrow::before {
+  border-left-color: var(--color-bg-secondary);
+}
+
+.tippy-box[data-theme~="custom"][data-placement^="right"]
+  > .tippy-arrow::before {
+  border-right-color: var(--color-bg-secondary);
+}
