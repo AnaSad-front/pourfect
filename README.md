@@ -56,5 +56,30 @@ The application includes calculators for:
 Clone the repository:
 
 ```bash
-git clone https://github.com/
+git clone https://github.com/AnaSad-front/pourfect.git
 ```
+
+---
+
+## 🌐 Deployment
+
+The project is deployed using Vercel.
+
+👉 Live demo: https://pourfect-mu.vercel.app
+
+---
+
+## 📱 Responsive Design
+
+Pourfect works seamlessly on:
+
+- Desktop
+- Tablet
+- Mobile devices
+
+---
+
+## 🤍 Contributing
+
+Suggestions, ideas, and contributions are welcome.
+If you are a candle maker and feel that a specific calculator is missing — feel free to open an issue or share feedback.
