@@ -6,7 +6,7 @@ function FaqAccordion() {
   return (
     <Accordion.Root
       type="single"
-      className="flex flex-col gap-xsm w-full mt-sm"
+      className="flex flex-col gap-xsm w-full mt-sm lg:w-2/3"
       collapsible
     >
       {faqData.map((category) => (

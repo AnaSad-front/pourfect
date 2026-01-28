@@ -1,6 +1,8 @@
 function AppContainer({ children }) {
   return (
-    <main className="flex flex-col p-sm w-full h-full md:p-md">{children}</main>
+    <main className="flex flex-col p-sm w-screen h-full md:p-md">
+      {children}
+    </main>
   );
 }
 
