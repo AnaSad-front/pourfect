@@ -5,7 +5,7 @@ function SocialLinkedIn() {
     <li>
       <a
         target="_blank"
-        href="https://www.linkedin.com/in/anastasia-sadyreva-873631380"
+        href="https://www.linkedin.com/in/anasad"
         className="group focus:outline-none"
       >
         <FaLinkedin
