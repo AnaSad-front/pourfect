@@ -1,6 +1,8 @@
-function Form({ children }) {
+function Form({ className = "", children }) {
   return (
-    <form className="flex flex-col justify-between gap-sm">{children}</form>
+    <form className={`flex flex-col justify-between gap-sm ${className}`}>
+      {children}
+    </form>
   );
 }
 

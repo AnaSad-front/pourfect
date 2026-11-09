@@ -30,7 +30,7 @@ function App() {
       <AppContainer>
         <Hero>
           <Logo />
-          <Subtitle subtitle="Professional calculations for perfect candles, reed diffusers and gypsum containers." />
+          <Subtitle subtitle="Professional calculations for perfect candles, reed diffusers, gypsum containers and bath bombs." />
         </Hero>
         <Navigation />
         <Outlet />
@@ -56,6 +56,7 @@ function App() {
               Reed diffuser calculator
             </FooterNavItem>
             <FooterNavItem to="gypsum">Gypsum calculator</FooterNavItem>
+            <FooterNavItem to="bathbomb">Bath bomb calculator</FooterNavItem>
           </FooterNav>
         </FooterColumn>
         <FooterColumn>

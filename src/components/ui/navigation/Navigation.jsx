@@ -10,6 +10,7 @@ function Navigation() {
         <NavItem to="/">Candle</NavItem>
         <NavItem to="diffuser">Reed diffuser</NavItem>
         <NavItem to="gypsum">Gypsum</NavItem>
+        <NavItem to="bathbomb">Bath Bomb</NavItem>
       </nav>
     </>
   );

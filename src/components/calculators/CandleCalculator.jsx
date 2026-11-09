@@ -15,7 +15,7 @@ import HeaderSecondary from "../ui/calcForm/HeaderSecondary";
 
 function CandleCalculator() {
   const volume = useInput("");
-  const percent = useInput(7);
+  const percent = useInput(6);
   const quantity = useInput(2);
 
   const totalWeightPerCandle = volume.value * WAX_RATIO;

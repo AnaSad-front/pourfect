@@ -89,4 +89,78 @@ export const faqData = [
       },
     ],
   },
+
+  {
+    id: "bath-bomb-calculator",
+    title: "Bath Bomb Calculator",
+    items: [
+      {
+        id: "bb1",
+        question: "What is a Bath Bomb calculator?",
+        answer:
+          "A Bath Bomb calculator is an online tool that helps you calculate the exact amounts of ingredients needed to make bath bombs. It saves time, reduces ingredient waste, and helps you create consistent recipes.",
+      },
+      {
+        id: "bb2",
+        question: "What ingredients do I need to make bath bombs?",
+        answer:
+          "The basic ingredients for bath bombs are baking soda (sodium bicarbonate), citric acid, cornstarch or another filler, and a small amount of liquid ingredients such as fragrance oil and carrier oil. You can also add colorants, salts, and other optional ingredients.",
+      },
+      {
+        id: "bb3",
+        question: "How do I calculate the ingredients for bath bombs?",
+        answer:
+          "Start by determining the total batch weight or the desired weight of one bath bomb. Then calculate each ingredient based on its percentage of the total recipe. A bath bomb calculator makes these calculations quick and accurate.",
+      },
+      {
+        id: "bb4",
+        question: "Why are my bath bombs crumbling?",
+        answer:
+          "Bath bombs may crumble if the mixture is too dry, the ingredients are not properly combined, or there is not enough binder. Check your liquid ingredients and make sure the mixture has a texture similar to damp sand.",
+      },
+      {
+        id: "bb5",
+        question: "Why are my bath bombs expanding or swelling?",
+        answer:
+          "Expanding bath bombs are often caused by premature activation of the baking soda and citric acid reaction. Excess moisture, high humidity, or too much liquid binder can trigger this reaction before the bath bomb is used.",
+      },
+      {
+        id: "bb6",
+        question: "Why do my bath bombs crack after drying?",
+        answer:
+          "Cracking can happen when bath bombs dry too quickly, contain too little binder, or have an inconsistent mixture. Make sure to pack the mixture firmly into the molds and allow the bath bombs to dry in a stable, low-humidity environment.",
+      },
+      {
+        id: "bb7",
+        question:
+          "How do I know if my bath bomb mixture has the right consistency?",
+        answer:
+          "The mixture should feel like slightly damp sand. It should hold its shape when squeezed in your hand without feeling wet, sticky, or overly crumbly.",
+      },
+      {
+        id: "bb8",
+        question: "How long do homemade bath bombs take to dry?",
+        answer:
+          "Most bath bombs need approximately 24–48 hours to dry completely. Drying time depends on their size, recipe, humidity, and room temperature.",
+      },
+      {
+        id: "bb9",
+        question: "What can I use instead of cornstarch in bath bombs?",
+        answer:
+          "Common alternatives include arrowroot powder, kaolin clay, and certain other suitable cosmetic powders. Each alternative can affect the texture, hardness, and fizzing performance of your bath bombs.",
+      },
+      {
+        id: "bb10",
+        question: "How can I make my bath bombs harder?",
+        answer:
+          "To make harder bath bombs, check your ingredient ratios, avoid adding too much liquid, and ensure the mixture is packed firmly into the molds. Proper drying and storage are also essential.",
+      },
+      {
+        id: "bb11",
+        question: "How should I store homemade bath bombs?",
+        answer:
+          "Once completely dry, store bath bombs in airtight packaging in a cool, dry place. Protect them from humidity and moisture to prevent premature fizzing and preserve their quality.",
+      },
+    ],
+  },
 ];
